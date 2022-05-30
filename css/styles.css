@@ -76,6 +76,7 @@ color: var(--text-color);
 
 /* Main*/
 .main-headerline {
+font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
@@ -86,6 +87,7 @@ background: #2F303A;
 }
 
 .btn {
+font-family: 'Roboto', sans-serif;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -141,6 +143,7 @@ color: var(--headline-text-color);
 
 .team-jobtitle {
     color: var(--text-color);
+    font-weight: 400;
 }
 
 /* Footer */
@@ -150,11 +153,14 @@ color: var(--headline-text-color);
 
 .footer-contacts-link {
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--secondary-color);
+}
+
+.footer-contacts-link.transparent {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contacts-link:hover,
@@ -168,6 +174,7 @@ color: var(--secondary-color);
 
 /* Portfolio page */
 .btn-menu {
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -205,7 +212,7 @@ letter-spacing: 0.03em;
 color: var(--text-color);
 }
 
-.section-services,
+.services-list,
 .section-work {
     color: var(--section-color);
 }
